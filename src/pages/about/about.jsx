@@ -5,57 +5,53 @@ import { Fade } from "react-awesome-reveal";
 const About = () => {
   return (
     <div className="">
-
       <Fade direction="bottom">
-      <div className="aboutContainer flex-center flex-column">
-      
+        <div className="aboutContainer flex-center flex-column">
           <div className="aboutText ">
-          <div className="aboutHeader">
-            <h1 className=" flex-center">About Us</h1>
-            <div className="p flex-center">
-              <p>
-                I am Oladunjoye john temitope, well known as BetaBeliefBoy, a
-                Professional compere a Skilled Master of Ceremony, an event host
-                with Uncommon Creativity. As a master of ceremony par
-                excellence, I have consistently delivered top notch and
-                outstanding value to clients in the corporate & social world
-                with touch of uniqueness, spontaneity and great sense of humor.
-                This has made BetaBeliefBoy the preferred MC by event planners,
-                couples, families and organizations within nigeria. As a
-                seasoned professional, i understands the importance of
-                delivering top-notch service in a timely manner and I do it with
-                lightning-fast precision. I’m known for my ability to seamlessly
-                navigate any event, ensuring a smooth and memorable experience
-                for both the audience and my clients.
-              </p>
+            <div className="aboutHeader">
+              <h1 className=" flex-center">About Us</h1>
+              <div className="p flex-center">
+                <p>
+                  I am Olaleye Dunsin, widely recognized as Dunsin's Graphy. As
+                  a seasoned Professional Compere and an Accomplished
+                  Photographer, I have honed my skills to deliver nothing short
+                  of excellence in every project I undertake. With a deep
+                  passion for keen eye for detail, I ensure
+                  that every event I host is not just an occasion but a
+                  remarkable experience that resonates with all attendees. In my
+                  photography, I strive to capture the essence of every moment,
+                  transforming fleeting instances into timeless memories. My
+                  clients trust me not just for my technical expertise but for
+                  my commitment to understanding their unique vision and
+                  bringing it to life with creativity and precision. I believe
+                  in building lasting relationships with my clients,
+                  understanding their needs, and exceeding their expectations.
+                  Whether it’s orchestrating an event that flows seamlessly or
+                  capturing the perfect shot that tells a powerful story, my
+                  goal is to leave a lasting impression of quality,
+                  professionalism, and artistry.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="imgTextContainer flex-center">
+            <div className="Abtimg1">
+              <img src="/assets/10.JPG" alt="" width={350} />
+            </div>
+
+            <div className="textAbout">
+              <div className="p">
+                <h3>
+                  At Dunsin's Graphy, a photography brand in Ilorin, Kwara
+                  State, Nigeria, we capture memories and tell stories through
+                  our creative images. Our goal is to bring out the best in both
+                  our photography and our clients' experiences.
+                </h3>
+              </div>
             </div>
           </div>
         </div>
-        
-
-        
-        <div className="imgTextContainer flex-center">
-          <div className="Abtimg1">
-            <img src="/assets/10.JPG" alt="" width={350} />
-          </div>
-
-          <div className="textAbout">
-            <div className="p">
-              <h3>
-                At BetaBelieveEvents, we believe that every event is a unique
-                story waiting to be told. Founded in [Year], our journey began
-                with a passion for creating unforgettable experiences. With over
-                [X] years of experience in the industry, we specialize in
-                crafting personalized events that reflect the personality and
-                vision of our clients. Whether it’s a grand wedding or an
-                intimate gathering, we bring our expertise, creativity, and
-                dedication to every detail, ensuring your event is not just
-                memorable but magical.
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
       </Fade>
 
       <Link to={"/Contact"}>
@@ -63,7 +59,6 @@ const About = () => {
           <button>Book an appointment</button>
         </div>
       </Link>
-
     </div>
   );
 };

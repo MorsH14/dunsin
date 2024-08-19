@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./contact.css";
 
+
 const Contact = () => {
+
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -46,7 +48,6 @@ const Contact = () => {
       <div className="myContactContainer">
         <div className="contactMainContainer">
           <div className="imgContentContainer">
-            {/* Optional image or content here */}
           </div>
           <div className="contactContent">
           <div className=" mar-20">

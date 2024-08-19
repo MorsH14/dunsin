@@ -117,8 +117,12 @@
   .backgroundYellow {
     display: none;
   }
-  .text p {
-    
+  .homeHeader{
+
+    h1{
+      width: 100%;
+      text-align: center;
+    }
   }
   .aboutHomeContainer {
     width: 80%;
@@ -126,6 +130,16 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    h1{
+      font-size: 30px;
+    }
+  }
+  .aboutHome{
+
+    h1{
+      font-size: 40px;
+    }
   }
   .leftImg {
     width: 100%;
@@ -134,5 +148,8 @@
     width: 100%;
     height: 500px;
 
+  }
+  .homeImages{
+    flex-direction: column;
   }
 }
